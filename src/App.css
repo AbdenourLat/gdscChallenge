@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background: radial-gradient(ellipse at bottom, #521c68 0%, #2d1d33 100%);
+    color: white;
 }
 
 @media screen and (max-width: 775px) {
