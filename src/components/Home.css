@@ -1,0 +1,63 @@
+.page-one {
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 40px;
+
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .logo img {
+    width: 200px;
+}
+
+.big-title {
+    box-shadow: 10px 10px #2D2059;
+    border: 1px #2D2059 solid;
+    padding: 20px;
+    border-radius: 40px 40px 0 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 300;
+    opacity: .5;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.button button {
+    background-color: #F2A516;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 5px 10px #2D2059;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.button button:hover {
+    background-color: transparent;
+}
